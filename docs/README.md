@@ -7,7 +7,7 @@ Leakage-Controlled PAM50 Benchmarking in METABRIC Reveals a Stable Compact Gene 
 This release contains the code, processed inputs, main analysis outputs, secondary analysis outputs, manuscript figures, and reproducibility documentation for a leakage-controlled benchmarking workflow for breast cancer intrinsic subtype classification in METABRIC.
 
 The project started in **R** with cohort reconstruction, clinical harmonization, PAM50 label definition, and export of aligned processed inputs, then moved to **Google Colab / Python** for leakage-controlled benchmarking, robustness analyses, compact panel extraction, PAM50 comparison, interpretability analyses, and figure generation.
-
+DOI: https://doi.org/10.5281/zenodo.18917379
 Release structure:
 
 - `code/R/`  
