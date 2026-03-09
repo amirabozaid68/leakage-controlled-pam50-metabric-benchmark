@@ -1,0 +1,2 @@
+metric,baseline_LR(V) mean,baseline_LR(V) sd,compact_LR(panel) mean,compact_LR(panel) sd,seeds,V,selector_grids
+TEST macro-F1,0.8199301181369701,0.01609671964654216,0.7641922790736615,0.02895439563066502,"[123, 124, 125, 126, 127]",3000,"C_SEL=[0.1, 0.3, 0.6, 1.0, 2.0]; PANEL=[60, 80, 100, 120]"

@@ -1,0 +1,10 @@
+# RUN ORDER
+
+## Step 1: Run `Transition_to_python.Rmd`
+**Output:** `EXPORT_FOR_COLAB/`
+
+## Step 2: Run `METABRIC_PAM50_benchmark.ipynb` or `.py` in Colab
+**Input:** `EXPORT_FOR_COLAB/`  
+**Output:** `ML_RESULTS_UPGRADED/`
+
+## Step 3: Use the files in `results_main/` and `figures_main/` for the manuscript

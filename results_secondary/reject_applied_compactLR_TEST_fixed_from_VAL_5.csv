@@ -1,0 +1,2 @@
+thr,coverage,n_kept,bacc,macro_f1,T_opt,min_coverage_rule,threshold_rule
+0.68,0.6788321167883211,186,0.8761758241758242,0.8825180748305849,5.240935432220968,0.7,VAL-only: max macro-F1 with coverage>= 0.70
