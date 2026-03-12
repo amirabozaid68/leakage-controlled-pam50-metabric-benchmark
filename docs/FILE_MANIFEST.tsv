@@ -1,0 +1,43 @@
+file_name	manuscript_use	notes
+cohort_flow_table.tsv	Table 1 source	Cohort reconstruction and final subtype counts
+robustness_pam50_vs_compactLR_4class_summary.csv	Table 2 source	Mean and SD across five seeds for PAM50 versus compact model on the primary 4-class test benchmark
+robustness_pam50_vs_compactLR_4class_per_seed.csv	Results Section 3.2 source	Per-seed paired benchmark results for the primary 4-class analysis
+pam50_eval_primary4_val_test.csv	Results Section 3.2 source	Primary PAM50 nearest-centroid benchmark on validation and test splits
+compact_eval_primary4_val_test_TOP80.csv	Results Section 3.2 source	Compact LR TOP80 validation and test evaluation
+compact_lr_primary4_aucpr_val_test_TOP80.csv	Results Section 3.2 source	Compact LR macro ROC-AUC and macro PR-AUC values for the primary 4-class task
+stable_compact_panel_TOP80_5seeds_5.csv	Results Section 3.3 source	Stable TOP80 panel defined by inclusion frequency across five seeds
+TOP80_overlap_with_PAM50.csv	Results Section 3.4 source	Genes shared between the stable TOP80 panel and PAM50
+TOP80_nonoverlap_vs_PAM50.csv	Results Section 3.4 source	Stable TOP80 genes not present in PAM50
+enrichment_TOP80_nonoverlap_enrichr.csv	Results Section 3.4 source / Supplementary table	Functional enrichment results for stable TOP80 genes not overlapping PAM50
+STABLE_TOP80_multinomialLR_coefficients_4class_seed123split.csv	Figure 4 source / Results Section 3.4 source	Subtype-specific multinomial logistic-regression coefficients for the stable TOP80 panel on the seed-123 primary split
+STABLE_TOP80_top15_genes_per_class_4class_seed123split.csv	Supplementary table	Top positively weighted genes per subtype from the stable TOP80 model on the seed-123 split
+pam50_centroids.tsv	Methods source	Exported PAM50 centroids from genefu used for the primary baseline implementation
+pam50_genes.tsv	Methods source	Canonical PAM50 gene list exported from genefu
+FIGURES_4CLASS_PAPER/FIG0_workflow_clean_journal.pdf	Release figure asset corresponding to workflow overview	High-resolution workflow schematic generated in Colab
+FIGURES_4CLASS_PAPER/FIG0_workflow_clean_journal.png	Release figure asset corresponding to workflow overview	PNG version of the workflow schematic
+FIGURES_4CLASS_PAPER/FIGA_robustness_paired_point_range_meanSD_TEST.png	Release figure asset corresponding to robustness comparison	Paired robustness plot across five seeds
+FIGURES_4CLASS_PAPER/FIGA_robustness_paired_point_range_meanSD_TEST.pdf	Release figure asset corresponding to robustness comparison	PDF version of the paired robustness plot
+FIGURES_4CLASS_PAPER/FIGB_CM_PAM50_TEST_seed123.png	Release figure asset corresponding to PAM50 confusion matrix	Row-normalized confusion matrix for PAM50 on the seed-123 test split
+FIGURES_4CLASS_PAPER/FIGB_CM_PAM50_TEST_seed123.pdf	Release figure asset corresponding to PAM50 confusion matrix	PDF version of the PAM50 seed-123 confusion matrix
+FIGURES_4CLASS_PAPER/FIGB_CM_CompactLR_TEST_seed123.png	Release figure asset corresponding to compact model confusion matrix	Row-normalized confusion matrix for compact LR on the seed-123 test split
+FIGURES_4CLASS_PAPER/FIGB_CM_CompactLR_TEST_seed123.pdf	Release figure asset corresponding to compact model confusion matrix	PDF version of the compact LR seed-123 confusion matrix
+FIGURES_4CLASS_PAPER/FIGB_CM_PAM50_vs_Compact_TEST_seed123_combined.png	Release figure asset corresponding to combined confusion matrices	Combined journal-style side-by-side confusion matrix figure
+FIGURES_4CLASS_PAPER/FIGB_CM_PAM50_vs_Compact_TEST_seed123_combined.pdf	Release figure asset corresponding to combined confusion matrices	PDF version of the combined confusion matrix figure
+FIGURES_4CLASS_PAPER/FIGC_macro_ROC_PR_seed123.png	Supplementary figure asset	Macro ROC and PR curves for the seed-123 test split
+FIGURES_4CLASS_PAPER/FIGC_macro_ROC_PR_seed123.pdf	Supplementary figure asset	PDF version of macro ROC and PR curves for the seed-123 test split
+FIGURES_4CLASS_PAPER/FIGD_TOP80_overlap_summary.png	Supplementary figure asset	Bar summary of overlap versus non-overlap between stable TOP80 and PAM50
+FIGURES_4CLASS_PAPER/FIGD_TOP80_overlap_summary.pdf	Supplementary figure asset	PDF version of the overlap summary figure
+FIGURES_4CLASS_PAPER/FIGE_enrichment_dotplot_TOP80_nonoverlap.png	Supplementary figure asset	Dot plot of enrichment results for stable TOP80 genes not overlapping PAM50
+FIGURES_4CLASS_PAPER/FIGE_enrichment_dotplot_TOP80_nonoverlap.pdf	Supplementary figure asset	PDF version of the enrichment dot plot
+FIGURES_4CLASS_PAPER/FIGF_TOP80_coeff_heatmap_top40.png	Release figure asset corresponding to coefficient heatmap	Heatmap of stable TOP80 multinomial logistic-regression coefficients across classes
+FIGURES_4CLASS_PAPER/FIGF_TOP80_coeff_heatmap_top40.pdf	Release figure asset corresponding to coefficient heatmap	PDF version of the coefficient heatmap
+fig1_workflow.pdf	LaTeX Figure 1	Current manuscript filename for workflow overview; should point to or be copied from FIG0_workflow_clean_journal.pdf
+fig2_robustness.pdf	LaTeX Figure 2	Current manuscript filename for robustness figure; should point to or be copied from FIGA_robustness_paired_point_range_meanSD_TEST.pdf
+fig3_confusion.pdf	LaTeX Figure 3	Current manuscript filename for confusion matrices; should point to or be copied from FIGB_CM_PAM50_vs_Compact_TEST_seed123_combined.pdf
+fig4_coefficients_Heatmap.pdf	LaTeX Figure 4	Current manuscript filename for coefficient heatmap; should point to or be copied from FIGF_TOP80_coeff_heatmap_top40.pdf
+fast_baselines_val_test_secondary_5class.csv	Secondary analysis output	Fast baseline centroid and logistic-regression results for the tumor-only 5-class task
+panel_gene_scores_secondary_5class.csv	Secondary analysis output	Secondary 5-class selector scores across genes
+compact_panel_secondary_5class_TOP80.csv	Secondary analysis output	Compact panel genes for the secondary 5-class task
+compact_panel_val_test_5.csv	Secondary analysis output	Validation and test performance for secondary compact-panel models
+robustness_5seeds_per_seed_5.csv	Secondary analysis output	Per-seed robustness results for the secondary 5-class task
+robustness_5seeds_summary_5.csv	Secondary analysis output	Summary robustness results for the secondary 5-class task
