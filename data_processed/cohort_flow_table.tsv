@@ -1,0 +1,9 @@
+step	n
+Total samples in expression matrix (raw)	1981
+Matched to clinical sample table	1980
+PAM50 available after merge (nc -> NA excluded)	1980
+Tumor-only subset (exclude Normal)	1826
+Primary 4-class subset (Basal/Her2/LumA/LumB)	1608
+Tumor-only Claudin-low (secondary/appendix)	218
+Normal samples (excluded from tumor-only)	148
+No PAM50 / not classified (excluded)	0
