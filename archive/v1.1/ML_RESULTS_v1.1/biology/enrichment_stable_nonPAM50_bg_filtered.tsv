@@ -1,0 +1,460 @@
+library	Term	Overlap	P-value	Genes	Adjusted P-value	terms_tested
+GO_Biological_Process_2023	Chromosome Condensation (GO:0030261)	3/7	5.1206604998161944e-05	CDCA5;NCAPG;NUSAP1	0.10446147419625036	2040
+GO_Biological_Process_2023	Mitotic Sister Chromatid Segregation (GO:0000070)	3/12	0.0003090094044262676	CDCA5;NCAPG;NUSAP1	0.31518959251479295	2040
+GO_Biological_Process_2023	Positive Regulation Of Chromosome Organization (GO:2001252)	2/5	0.0013239971653935393	AURKB;NCAPG	0.9003180724676068	2040
+Reactome_2022	Collagen Degradation R-HSA-1442490	3/18	0.0010915015659026584	COL17A1;MMP10;MMP13	0.9965409296691271	913
+GO_Biological_Process_2023	Skeletal System Morphogenesis (GO:0048705)	1/17	0.18308577631232512	MMP13	1.0	2040
+GO_Biological_Process_2023	Sensory Perception Of Light Stimulus (GO:0050953)	1/15	0.16336970340698526	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Response To Peptide (GO:1901652)	1/11	0.12253896288034259	MMP13	1.0	2040
+GO_Biological_Process_2023	Response To Light Stimulus (GO:0009416)	1/7	0.07977192758267326	PCLAF	1.0	2040
+GO_Biological_Process_2023	Response To Estradiol (GO:0032355)	1/14	0.1533388152106335	NRIP1	1.0	2040
+GO_Biological_Process_2023	Response To Calcium Ion (GO:0051592)	1/27	0.27507940778091755	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Response To Amyloid-Beta (GO:1904645)	1/12	0.13292477809896935	MMP13	1.0	2040
+GO_Biological_Process_2023	Response To UV (GO:0009411)	2/18	0.018393774165034384	AURKB;PCLAF	1.0	2040
+GO_Biological_Process_2023	Regulation Of Translation (GO:0006417)	1/42	0.3944557184151595	ELP2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Transcription By RNA Polymerase II (GO:0006357)	7/327	0.08354606301273737	AURKB;DKK1;ELP2;HOXA5;NRIP1;RCOR2;SREBF1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Telomere Maintenance Via Telomerase (GO:0032210)	1/9	0.1014029629718526	AURKB	1.0	2040
+GO_Biological_Process_2023	Regulation Of Telomerase Activity (GO:0051972)	1/12	0.13292477809896935	AURKB	1.0	2040
+GO_Biological_Process_2023	Regulation Of Signal Transduction By P53 Class Mediator (GO:1901796)	1/9	0.1014029629718526	AURKB	1.0	2040
+GO_Biological_Process_2023	Regulation Of Receptor-Mediated Endocytosis (GO:0048259)	1/10	0.11203214787276095	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Receptor Internalization (GO:0002090)	1/10	0.11203214787276095	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Protein Phosphorylation (GO:0001932)	2/65	0.17783638554529985	AURKB;AXIN2	1.0	2040
+Reactome_2022	Cell Cycle, Mitotic R-HSA-69278	3/99	0.10961723266860707	AURKB;CDCA5;NCAPG	1.0	913
+Reactome_2022	Cell Cycle R-HSA-1640170	3/113	0.1465929198970961	AURKB;CDCA5;NCAPG	1.0	913
+Reactome_2022	Cell Cycle Checkpoints R-HSA-69620	1/50	0.4500630343460511	AURKB	1.0	913
+Reactome_2022	CaM Pathway R-HSA-111997	1/8	0.09065002300741483	KPNA2	1.0	913
+Reactome_2022	Ca2+ Pathway R-HSA-4086398	1/16	0.17328492473111767	AXIN2	1.0	913
+Reactome_2022	Ca-dependent Events R-HSA-111996	1/8	0.09065002300741483	KPNA2	1.0	913
+Reactome_2022	Binding Of TCF/LEF:CTNNB1 To Target Gene Promoters R-HSA-4411364	1/5	0.05763459165622018	AXIN2	1.0	913
+Reactome_2022	Beta-catenin Independent WNT Signaling R-HSA-3858494	1/36	0.3491973132942106	AXIN2	1.0	913
+Reactome_2022	Assembly Of Collagen Fibrils And Other Multimeric Structures R-HSA-2022090	1/32	0.3172142279147912	MMP13	1.0	913
+Reactome_2022	Antiviral Mechanism By IFN-stimulated Genes R-HSA-1169410	1/21	0.22117093618533973	KPNA2	1.0	913
+Reactome_2022	Unattached Kinetochores Signal Amplification Via A MAD2 Inhibitory Signal R-HSA-141444	1/14	0.1533388152106335	AURKB	1.0	913
+Reactome_2022	Activation Of Gene Expression By SREBF (SREBP) R-HSA-2426168	1/15	0.16336970340698526	SREBF1	1.0	913
+Reactome_2022	Activation Of NMDA Receptors And Postsynaptic Events R-HSA-442755	1/10	0.11203214787276095	KPNA2	1.0	913
+Reactome_2022	Activation Of Matrix Metalloproteinases R-HSA-1592389	2/13	0.009730730571270989	MMP10;MMP13	1.0	913
+Reactome_2022	APC/C:Cdh1 Mediated Degradation Of Cdc20 And APC/C:Cdh1 Targets In Late Mitosis/Early G1 R-HSA-174178	1/19	0.2023494882357828	AURKB	1.0	913
+GO_Biological_Process_2023	Small GTPase Mediated Signal Transduction (GO:0007264)	1/16	0.17328492473111767	RAPGEFL1	1.0	2040
+Reactome_2022	Formation Of beta-catenin:TCF Transactivating Complex R-HSA-201722	1/18	0.19277354114451875	AXIN2	1.0	913
+Reactome_2022	FOXO-mediated Transcription R-HSA-9614085	1/14	0.1533388152106335	SREBF1	1.0	913
+Reactome_2022	Extracellular Matrix Organization R-HSA-1474244	3/108	0.1329303273258242	COL17A1;MMP10;MMP13	1.0	913
+Reactome_2022	Estrogen-dependent Gene Expression R-HSA-9018519	2/43	0.09041183680519471	KPNA2;NRIP1	1.0	913
+Reactome_2022	ESR-mediated Signaling R-HSA-8939211	2/61	0.16098344656276725	KPNA2;NRIP1	1.0	913
+Reactome_2022	EML4 And NUDC In Mitotic Spindle Formation R-HSA-9648025	1/14	0.1533388152106335	AURKB	1.0	913
+Reactome_2022	EGR2 And SOX10-mediated Initiation Of Schwann Cell Myelination R-HSA-9619665	1/9	0.1014029629718526	ADGRV1	1.0	913
+Reactome_2022	Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202	1/81	0.6222769230472901	DKK1	1.0	913
+Reactome_2022	Disease R-HSA-1643685	2/359	0.9366463455688643	DKK1;KPNA2	1.0	913
+Reactome_2022	Developmental Biology R-HSA-1266738	5/233	0.13560127194204305	ADGRV1;DKK1;KRT15;KRT6B;SREBF1	1.0	913
+Reactome_2022	Deubiquitination R-HSA-5688426	1/39	0.3722232245351464	AXIN2	1.0	913
+Reactome_2022	Degradation Of Extracellular Matrix R-HSA-1474228	3/35	0.007627079114522525	COL17A1;MMP10;MMP13	1.0	913
+Reactome_2022	Degradation Of Beta-Catenin By Destruction Complex R-HSA-195253	1/20	0.21181487275639738	AXIN2	1.0	913
+Reactome_2022	Degradation Of AXIN R-HSA-4641257	1/14	0.1533388152106335	AXIN2	1.0	913
+Reactome_2022	DNA Repair R-HSA-73894	2/38	0.07298877553490977	KPNA2;PCLAF	1.0	913
+Reactome_2022	DNA Double-Strand Break Repair R-HSA-5693532	1/21	0.22117093618533973	KPNA2	1.0	913
+Reactome_2022	Keratinization R-HSA-6805567	2/25	0.03425321070351134	KRT15;KRT6B	1.0	913
+Reactome_2022	Intracellular Signaling By Second Messengers R-HSA-9006925	1/64	0.5356535954384679	KPNA2	1.0	913
+Reactome_2022	Interferon Signaling R-HSA-913531	1/71	0.5734398159218772	KPNA2	1.0	913
+Reactome_2022	Integration Of Energy Metabolism R-HSA-163685	1/29	0.29222845713774165	KCNC2	1.0	913
+Reactome_2022	Influenza Infection R-HSA-168255	1/52	0.4631689520590478	KPNA2	1.0	913
+Reactome_2022	Infectious Disease R-HSA-5663205	1/212	0.9260593820382034	KPNA2	1.0	913
+Reactome_2022	Immune System R-HSA-168256	1/420	0.9952586034513451	KPNA2	1.0	913
+Reactome_2022	ISG15 Antiviral Mechanism R-HSA-1169408	1/17	0.18308577631232512	KPNA2	1.0	913
+Reactome_2022	Heme Signaling R-HSA-9707616	1/8	0.09065002300741483	NRIP1	1.0	913
+Reactome_2022	HATs Acetylate Histones R-HSA-3214847	1/18	0.19277354114451875	ELP2	1.0	913
+Reactome_2022	Glucagon-like Peptide-1 (GLP1) Regulates Insulin Secretion R-HSA-381676	1/11	0.12253896288034259	KCNC2	1.0	913
+Reactome_2022	Generic Transcription Pathway R-HSA-212436	3/184	0.37080193365538955	AURKB;MMP13;SREBF1	1.0	913
+Reactome_2022	Gene Expression (Transcription) R-HSA-74160	3/207	0.4455805780417499	AURKB;MMP13;SREBF1	1.0	913
+Reactome_2022	GPCR Downstream Signaling R-HSA-388396	1/107	0.725173805566659	KPNA2	1.0	913
+Reactome_2022	G-protein Mediated Events R-HSA-112040	1/13	0.14319094872627752	KPNA2	1.0	913
+Reactome_2022	G Alpha (I) Signaling Events R-HSA-418594	1/66	0.5467698649596854	KPNA2	1.0	913
+Reactome_2022	Negative Regulation Of TCF-dependent Signaling By WNT Ligand Antagonists R-HSA-3772470	1/6	0.06876726091187783	DKK1	1.0	913
+Reactome_2022	NR1H2 And NR1H3-mediated Signaling R-HSA-9024446	2/12	0.008294995475448026	NRIP1;SREBF1	1.0	913
+Reactome_2022	Mitotic Spindle Checkpoint R-HSA-69618	1/16	0.17328492473111767	AURKB	1.0	913
+Reactome_2022	Mitotic Prometaphase R-HSA-68877	3/25	0.0029064473778594112	AURKB;CDCA5;NCAPG	1.0	913
+Reactome_2022	Mitotic Metaphase And Anaphase R-HSA-2555396	2/45	0.09769794855515128	AURKB;CDCA5	1.0	913
+Reactome_2022	Mitotic Anaphase R-HSA-68882	2/45	0.09769794855515128	AURKB;CDCA5	1.0	913
+Reactome_2022	Metabolism Of Water-Soluble Vitamins And Cofactors R-HSA-196849	1/37	0.3569624533806712	MOCOS	1.0	913
+Reactome_2022	Metabolism Of Vitamins And Cofactors R-HSA-196854	1/55	0.48225980972467064	MOCOS	1.0	913
+Reactome_2022	Metabolism Of Steroids R-HSA-8957322	1/47	0.42981859313357584	SREBF1	1.0	913
+Reactome_2022	Metabolism Of Proteins R-HSA-392499	3/353	0.8037316835768873	AURKB;AXIN2;NRIP1	1.0	913
+Reactome_2022	Metabolism Of Lipids R-HSA-556833	2/165	0.5878370914392682	PLEKHA4;SREBF1	1.0	913
+Reactome_2022	Metabolism Of Amino Acids And Derivatives R-HSA-71291	1/105	0.7183403503464527	GCAT	1.0	913
+Reactome_2022	Metabolism R-HSA-1430728	5/476	0.6815688612244322	GCAT;KCNC2;MOCOS;PLEKHA4;SREBF1	1.0	913
+Reactome_2022	MAPK6/MAPK4 Signaling R-HSA-5687128	1/25	0.2575263374466385	MMP10	1.0	913
+Reactome_2022	MAPK Family Signaling Cascades R-HSA-5683057	1/60	0.5126196082827327	MMP10	1.0	913
+Reactome_2022	M Phase R-HSA-68886	3/64	0.03844855403891158	AURKB;CDCA5;NCAPG	1.0	913
+Reactome_2022	Regulation Of MECP2 Expression And Activity R-HSA-9022692	1/8	0.09065002300741483	AURKB	1.0	913
+Reactome_2022	RORA Activates Gene Expression R-HSA-1368082	1/5	0.05763459165622018	SREBF1	1.0	913
+Reactome_2022	RNA Polymerase II Transcription R-HSA-73857	3/192	0.3970598973048504	AURKB;MMP13;SREBF1	1.0	913
+Reactome_2022	RHO GTPases Activate Formins R-HSA-5663220	1/22	0.23041890645528285	AURKB	1.0	913
+Reactome_2022	RHO GTPase Effectors R-HSA-195258	1/54	0.47597077917963193	AURKB	1.0	913
+Reactome_2022	Potassium Channels R-HSA-1296071	1/19	0.2023494882357828	KCNC2	1.0	913
+Reactome_2022	Post-translational Protein Modification R-HSA-597592	3/226	0.5049691274328479	AURKB;AXIN2;NRIP1	1.0	913
+Reactome_2022	Post NMDA Receptor Activation Events R-HSA-438064	1/10	0.11203214787276095	KPNA2	1.0	913
+Reactome_2022	Phospholipid Metabolism R-HSA-1483257	1/36	0.3491973132942106	PLEKHA4	1.0	913
+Reactome_2022	PPARA Activates Gene Expression R-HSA-1989781	1/23	0.23955999809610273	SREBF1	1.0	913
+Reactome_2022	PLC Beta Mediated Events R-HSA-112043	1/13	0.14319094872627752	KPNA2	1.0	913
+Reactome_2022	PI Metabolism R-HSA-1483255	1/9	0.1014029629718526	PLEKHA4	1.0	913
+Reactome_2022	Opioid Signaling R-HSA-111885	1/21	0.22117093618533973	KPNA2	1.0	913
+Reactome_2022	Neurotransmitter Receptors And Postsynaptic Signal Transmission R-HSA-112314	1/28	0.28370386498738237	KPNA2	1.0	913
+Reactome_2022	Neuronal System R-HSA-112316	2/69	0.19496481518151343	KCNC2;KPNA2	1.0	913
+Reactome_2022	Nervous System Development R-HSA-9675108	1/143	0.8238672310946116	ADGRV1	1.0	913
+Reactome_2022	SUMOylation Of Transcription Cofactors R-HSA-3899300	1/7	0.07977192758267326	NRIP1	1.0	913
+Reactome_2022	SUMOylation Of DNA Replication Proteins R-HSA-4615885	1/6	0.06876726091187783	AURKB	1.0	913
+Reactome_2022	SUMOylation R-HSA-2990846	2/27	0.039492006470942344	AURKB;NRIP1	1.0	913
+Reactome_2022	SUMO E3 Ligases SUMOylate Target Proteins R-HSA-3108232	2/27	0.039492006470942344	AURKB;NRIP1	1.0	913
+Reactome_2022	SARS-CoV-2-host Interactions R-HSA-9705683	1/41	0.3871313841821946	KPNA2	1.0	913
+Reactome_2022	SARS-CoV-2 Activates/Modulates Innate And Adaptive Immune Responses R-HSA-9705671	1/19	0.2023494882357828	KPNA2	1.0	913
+Reactome_2022	SARS-CoV-2 Infection R-HSA-9694516	1/64	0.5356535954384679	KPNA2	1.0	913
+Reactome_2022	SARS-CoV Infections R-HSA-9679506	1/82	0.6268501409292444	KPNA2	1.0	913
+Reactome_2022	S Phase R-HSA-69242	1/39	0.3722232245351464	CDCA5	1.0	913
+Reactome_2022	Resolution Of Sister Chromatid Cohesion R-HSA-2500257	2/19	0.02040649350176456	AURKB;CDCA5	1.0	913
+Reactome_2022	Repression Of WNT Target Genes R-HSA-4641265	1/5	0.05763459165622018	AXIN2	1.0	913
+Reactome_2022	Regulation Of Lipid Metabolism By PPARalpha R-HSA-400206	1/23	0.23955999809610273	SREBF1	1.0	913
+Reactome_2022	Regulation Of Insulin Secretion R-HSA-422356	1/21	0.22117093618533973	KCNC2	1.0	913
+Reactome_2022	Regulation Of Cholesterol Biosynthesis By SREBP (SREBF) R-HSA-1655829	1/16	0.17328492473111767	SREBF1	1.0	913
+Reactome_2022	Regulation Of TP53 Activity Thru Phosphorylation R-HSA-6804756	1/13	0.14319094872627752	AURKB	1.0	913
+Reactome_2022	Regulation Of TP53 Activity R-HSA-5633007	1/21	0.22117093618533973	AURKB	1.0	913
+Reactome_2022	Transcriptional Regulation Of Pluripotent Stem Cells R-HSA-452723	1/7	0.07977192758267326	DKK1	1.0	913
+Reactome_2022	Transcriptional Regulation By RUNX2 R-HSA-8878166	1/30	0.30065430883848276	MMP13	1.0	913
+Reactome_2022	Transcriptional Regulation By TP53 R-HSA-3700989	1/54	0.47597077917963193	AURKB	1.0	913
+Reactome_2022	Transcriptional Regulation By MECP2 R-HSA-8986944	1/17	0.18308577631232512	AURKB	1.0	913
+Reactome_2022	Tight Junction Interactions R-HSA-420029	1/9	0.1014029629718526	CLDN11	1.0	913
+Reactome_2022	Termination Of Translesion DNA Synthesis R-HSA-5656169	1/7	0.07977192758267326	PCLAF	1.0	913
+Reactome_2022	TCF Dependent Signaling In Response To WNT R-HSA-201681	2/43	0.09041183680519471	AXIN2;DKK1	1.0	913
+Reactome_2022	Synthesis Of PIPs At Plasma Membrane R-HSA-1660499	1/6	0.06876726091187783	PLEKHA4	1.0	913
+Reactome_2022	Signaling By WNT In Cancer R-HSA-4791275	1/7	0.07977192758267326	DKK1	1.0	913
+Reactome_2022	Signaling By WNT R-HSA-195721	2/60	0.15682070344474078	AXIN2;DKK1	1.0	913
+Reactome_2022	Signaling By Rho GTPases, Miro GTPases And RHOBTB3 R-HSA-9716542	1/119	0.7629117992130703	AURKB	1.0	913
+Reactome_2022	Signaling By Rho GTPases R-HSA-194315	1/116	0.7539796619731172	AURKB	1.0	913
+Reactome_2022	Signaling By Nuclear Receptors R-HSA-9006931	3/85	0.07710624358147197	KPNA2;NRIP1;SREBF1	1.0	913
+Reactome_2022	Signaling By GPCR R-HSA-372790	1/118	0.7599700609739299	KPNA2	1.0	913
+Reactome_2022	Signal Transduction R-HSA-162582	7/478	0.32988176104950473	AURKB;AXIN2;DKK1;KPNA2;MMP10;NRIP1;SREBF1	1.0	913
+Reactome_2022	Separation Of Sister Chromatids R-HSA-2467813	2/33	0.05685404944494035	AURKB;CDCA5	1.0	913
+KEGG_2021_Human	C-type lectin receptor signaling pathway	1/21	0.22117093618533973	CALML3	1.0	280
+KEGG_2021_Human	Breast cancer	1/30	0.30065430883848276	AXIN2	1.0	280
+KEGG_2021_Human	Basal cell carcinoma	1/13	0.14319094872627752	AXIN2	1.0	280
+KEGG_2021_Human	Apelin signaling pathway	1/29	0.29222845713774165	CALML3	1.0	280
+KEGG_2021_Human	Amphetamine addiction	1/17	0.18308577631232512	CALML3	1.0	280
+KEGG_2021_Human	Alzheimer disease	3/72	0.051630144743060984	AXIN2;CALML3;DKK1	1.0	280
+KEGG_2021_Human	Aldosterone synthesis and secretion	1/28	0.28370386498738237	CALML3	1.0	280
+KEGG_2021_Human	Alcoholism	1/41	0.3871313841821946	CALML3	1.0	280
+KEGG_2021_Human	Adrenergic signaling in cardiomyocytes	1/29	0.29222845713774165	CALML3	1.0	280
+KEGG_2021_Human	AMPK signaling pathway	1/26	0.2663539484731405	SREBF1	1.0	280
+Reactome_2022	Voltage Gated Potassium Channels R-HSA-1296072	1/6	0.06876726091187783	KCNC2	1.0	913
+Reactome_2022	Ub-specific Processing Proteases R-HSA-5689880	1/30	0.30065430883848276	AXIN2	1.0	913
+Reactome_2022	Type I Hemidesmosome Assembly R-HSA-446107	1/5	0.05763459165622018	COL17A1	1.0	913
+Reactome_2022	Transmission Across Chemical Synapses R-HSA-112315	1/46	0.4229106978964907	KPNA2	1.0	913
+Reactome_2022	Translesion Synthesis By Y Family DNA Polymerases Bypasses Lesions On DNA Template R-HSA-110313	1/7	0.07977192758267326	PCLAF	1.0	913
+Reactome_2022	Transcriptional Regulation Of White Adipocyte Differentiation R-HSA-381340	1/23	0.23955999809610273	SREBF1	1.0	913
+KEGG_2021_Human	Glucagon signaling pathway	1/21	0.22117093618533973	CALML3	1.0	280
+KEGG_2021_Human	Glioma	1/19	0.2023494882357828	CALML3	1.0	280
+KEGG_2021_Human	Gastric cancer	1/27	0.27507940778091755	AXIN2	1.0	280
+KEGG_2021_Human	Gastric acid secretion	1/22	0.23041890645528285	CALML3	1.0	280
+KEGG_2021_Human	Folate biosynthesis	1/11	0.12253896288034259	MOCOS	1.0	280
+KEGG_2021_Human	Fluid shear stress and atherosclerosis	1/49	0.4433938544938071	CALML3	1.0	280
+KEGG_2021_Human	Estrogen signaling pathway	2/43	0.09041183680519471	CALML3;KRT15	1.0	280
+KEGG_2021_Human	Endometrial cancer	1/13	0.14319094872627752	AXIN2	1.0	280
+KEGG_2021_Human	Dopaminergic synapse	1/28	0.28370386498738237	CALML3	1.0	280
+KEGG_2021_Human	Cushing syndrome	1/42	0.3944557184151595	AXIN2	1.0	280
+KEGG_2021_Human	Colorectal cancer	1/20	0.21181487275639738	AXIN2	1.0	280
+KEGG_2021_Human	Circadian entrainment	1/23	0.23955999809610273	CALML3	1.0	280
+KEGG_2021_Human	Chemical carcinogenesis	1/54	0.47597077917963193	KPNA2	1.0	280
+KEGG_2021_Human	Cellular senescence	1/43	0.4016948584534922	CALML3	1.0	280
+KEGG_2021_Human	Cell adhesion molecules	1/54	0.47597077917963193	CLDN11	1.0	280
+KEGG_2021_Human	Calcium signaling pathway	1/50	0.4500630343460511	CALML3	1.0	280
+KEGG_2021_Human	Lipid and atherosclerosis	1/50	0.4500630343460511	CALML3	1.0	280
+KEGG_2021_Human	Leukocyte transendothelial migration	1/35	0.34134096764719135	CLDN11	1.0	280
+KEGG_2021_Human	Kaposi sarcoma-associated herpesvirus infection	1/50	0.4500630343460511	CALML3	1.0	280
+KEGG_2021_Human	Insulin signaling pathway	2/23	0.02931489035724112	CALML3;SREBF1	1.0	280
+KEGG_2021_Human	Insulin resistance	1/19	0.2023494882357828	SREBF1	1.0	280
+KEGG_2021_Human	Influenza A	1/47	0.42981859313357584	KPNA2	1.0	280
+KEGG_2021_Human	Inflammatory mediator regulation of TRP channels	1/19	0.2023494882357828	CALML3	1.0	280
+KEGG_2021_Human	IL-17 signaling pathway	1/25	0.2575263374466385	MMP13	1.0	280
+KEGG_2021_Human	Human papillomavirus infection	1/88	0.6531791222725513	AXIN2	1.0	280
+KEGG_2021_Human	Human immunodeficiency virus 1 infection	1/39	0.3722232245351464	CALML3	1.0	280
+KEGG_2021_Human	Human cytomegalovirus infection	1/57	0.4946183239787023	CALML3	1.0	280
+KEGG_2021_Human	Hippo signaling pathway	1/37	0.3569624533806712	AXIN2	1.0	280
+KEGG_2021_Human	Hepatocellular carcinoma	1/41	0.3871313841821946	AXIN2	1.0	280
+KEGG_2021_Human	Hepatitis C	1/36	0.3491973132942106	CLDN11	1.0	280
+KEGG_2021_Human	GnRH signaling pathway	1/22	0.23041890645528285	CALML3	1.0	280
+KEGG_2021_Human	Glycine, serine and threonine metabolism	1/11	0.12253896288034259	GCAT	1.0	280
+KEGG_2021_Human	Protein digestion and absorption	1/38	0.3646374176467729	COL17A1	1.0	280
+KEGG_2021_Human	Phosphatidylinositol signaling system	1/13	0.14319094872627752	CALML3	1.0	280
+KEGG_2021_Human	Pertussis	1/26	0.2663539484731405	CALML3	1.0	280
+KEGG_2021_Human	Pathways of neurodegeneration	3/81	0.06875501230337484	AXIN2;CALML3;DKK1	1.0	280
+KEGG_2021_Human	Pathways in cancer	2/137	0.48571424052514817	AXIN2;CALML3	1.0	280
+KEGG_2021_Human	Pathogenic Escherichia coli infection	1/54	0.47597077917963193	CLDN11	1.0	280
+KEGG_2021_Human	Parkinson disease	1/55	0.48225980972467064	CALML3	1.0	280
+KEGG_2021_Human	Parathyroid hormone synthesis, secretion and action	1/28	0.28370386498738237	MMP13	1.0	280
+KEGG_2021_Human	Oxytocin signaling pathway	1/33	0.3253504834919738	CALML3	1.0	280
+KEGG_2021_Human	Oocyte meiosis	1/26	0.2663539484731405	CALML3	1.0	280
+KEGG_2021_Human	Olfactory transduction	1/8	0.09065002300741483	CALML3	1.0	280
+KEGG_2021_Human	Non-alcoholic fatty liver disease	1/29	0.29222845713774165	SREBF1	1.0	280
+KEGG_2021_Human	Neurotrophin signaling pathway	1/22	0.23041890645528285	CALML3	1.0	280
+KEGG_2021_Human	MicroRNAs in cancer	1/52	0.4631689520590478	CDCA5	1.0	280
+KEGG_2021_Human	Melanogenesis	1/22	0.23041890645528285	CALML3	1.0	280
+KEGG_2021_Human	Long-term potentiation	1/13	0.14319094872627752	CALML3	1.0	280
+GO_Biological_Process_2023	DNA Repair (GO:0006281)	1/29	0.29222845713774165	CDCA5	1.0	2040
+GO_Biological_Process_2023	DNA Metabolic Process (GO:0006259)	3/42	0.012642483282610499	AXIN2;KPNA2;PCLAF	1.0	2040
+GO_Biological_Process_2023	DNA Damage Response (GO:0006974)	1/56	0.48847537982207034	PCLAF	1.0	2040
+KEGG_2021_Human	cGMP-PKG signaling pathway	1/32	0.3172142279147912	CALML3	1.0	280
+KEGG_2021_Human	cAMP signaling pathway	1/44	0.408849768032426	CALML3	1.0	280
+KEGG_2021_Human	Wnt signaling pathway	2/36	0.06636887000151548	AXIN2;DKK1	1.0	280
+KEGG_2021_Human	Vascular smooth muscle contraction	1/35	0.34134096764719135	CALML3	1.0	280
+KEGG_2021_Human	Tuberculosis	1/40	0.3797208813111948	CALML3	1.0	280
+KEGG_2021_Human	Tight junction	1/49	0.4433938544938071	CLDN11	1.0	280
+KEGG_2021_Human	Staphylococcus aureus infection	1/40	0.3797208813111948	KRT15	1.0	280
+KEGG_2021_Human	Signaling pathways regulating pluripotency of stem cells	1/24	0.2485954123769133	AXIN2	1.0	280
+KEGG_2021_Human	Salivary secretion	1/30	0.30065430883848276	CALML3	1.0	280
+KEGG_2021_Human	Renin secretion	1/17	0.18308577631232512	CALML3	1.0	280
+KEGG_2021_Human	Relaxin signaling pathway	1/32	0.3172142279147912	MMP13	1.0	280
+KEGG_2021_Human	Ras signaling pathway	1/44	0.408849768032426	CALML3	1.0	280
+KEGG_2021_Human	Rap1 signaling pathway	1/44	0.408849768032426	CALML3	1.0	280
+GO_Biological_Process_2023	Cell-Matrix Adhesion (GO:0007160)	1/35	0.34134096764719135	COL17A1	1.0	2040
+GO_Biological_Process_2023	Cell-Cell Junction Assembly (GO:0007043)	1/16	0.17328492473111767	CLDN11	1.0	2040
+GO_Biological_Process_2023	Cell-Cell Adhesion Via Plasma-Membrane Adhesion Molecules (GO:0098742)	1/45	0.41592140029327274	CLDN11	1.0	2040
+GO_Biological_Process_2023	Cell Junction Disassembly (GO:0150146)	1/5	0.05763459165622018	DKK1	1.0	2040
+GO_Biological_Process_2023	Cell Cycle G2/M Phase Transition (GO:0044839)	1/12	0.13292477809896935	AURKB	1.0	2040
+GO_Biological_Process_2023	Calcium-Independent Cell-Cell Adhesion Via Plasma Membrane Cell-Adhesion Molecules (GO:0016338)	1/6	0.06876726091187783	CLDN11	1.0	2040
+GO_Biological_Process_2023	Bone Morphogenesis (GO:0060349)	1/9	0.1014029629718526	MMP13	1.0	2040
+GO_Biological_Process_2023	Bone Development (GO:0060348)	1/18	0.19277354114451875	MMP13	1.0	2040
+GO_Biological_Process_2023	Bicellular Tight Junction Assembly (GO:0070830)	1/9	0.1014029629718526	CLDN11	1.0	2040
+GO_Biological_Process_2023	Atrioventricular Valve Morphogenesis (GO:0003181)	1/7	0.07977192758267326	AXIN2	1.0	2040
+GO_Biological_Process_2023	Apical Junction Assembly (GO:0043297)	1/9	0.1014029629718526	CLDN11	1.0	2040
+GO_Biological_Process_2023	Aortic Valve Morphogenesis (GO:0003180)	1/12	0.13292477809896935	AXIN2	1.0	2040
+GO_Biological_Process_2023	Aortic Valve Development (GO:0003176)	1/11	0.12253896288034259	AXIN2	1.0	2040
+GO_Biological_Process_2023	Anterior/Posterior Pattern Specification (GO:0009952)	1/18	0.19277354114451875	HOXA5	1.0	2040
+GO_Biological_Process_2023	Ras Protein Signal Transduction (GO:0007265)	1/19	0.2023494882357828	RAPGEFL1	1.0	2040
+GO_Biological_Process_2023	DNA Replication (GO:0006260)	1/9	0.1014029629718526	PCLAF	1.0	2040
+GO_Biological_Process_2023	Cytoskeleton-Dependent Cytokinesis (GO:0061640)	2/14	0.011268684429651352	AURKB;NUSAP1	1.0	2040
+GO_Biological_Process_2023	Chromosome Organization (GO:0051276)	1/10	0.11203214787276095	AXIN2	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Starvation (GO:0009267)	1/24	0.2485954123769133	SREBF1	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Salt (GO:1902075)	1/26	0.2663539484731405	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Oxygen-Containing Compound (GO:1901701)	3/100	0.11212063990556784	ADGRV1;KCNC2;NRIP1	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Organic Cyclic Compound (GO:0071407)	1/42	0.3944557184151595	NRIP1	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Nutrient Levels (GO:0031669)	1/16	0.17328492473111767	SREBF1	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Metal Ion (GO:0071248)	1/38	0.3646374176467729	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Lipid (GO:0071396)	1/71	0.5734398159218772	NRIP1	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Light Stimulus (GO:0071482)	1/8	0.09065002300741483	AURKB	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Estradiol Stimulus (GO:0071392)	1/11	0.12253896288034259	NRIP1	1.0	2040
+GO_Biological_Process_2023	Cellular Response To Calcium Ion (GO:0071277)	1/18	0.19277354114451875	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Cellular Response To UV (GO:0034644)	1/16	0.17328492473111767	AURKB	1.0	2040
+GO_Biological_Process_2023	Cellular Component Disassembly (GO:0022411)	2/22	0.0269635605165365	MMP10;MMP13	1.0	2040
+GO_Biological_Process_2023	Cell-Substrate Junction Assembly (GO:0007044)	1/10	0.11203214787276095	COL17A1	1.0	2040
+GO_Biological_Process_2023	Inflammatory Response (GO:0006954)	1/68	0.5576270398911484	TMIGD3	1.0	2040
+GO_Biological_Process_2023	Import Into Nucleus (GO:0051170)	1/7	0.07977192758267326	KPNA2	1.0	2040
+GO_Biological_Process_2023	Histone Modification (GO:0016570)	1/14	0.1533388152106335	AURKB	1.0	2040
+GO_Biological_Process_2023	Extracellular Structure Organization (GO:0043062)	3/38	0.009595173822605333	COL17A1;MMP10;MMP13	1.0	2040
+GO_Biological_Process_2023	Extracellular Matrix Organization (GO:0030198)	3/67	0.04316003514847028	COL17A1;MMP10;MMP13	1.0	2040
+GO_Biological_Process_2023	Extracellular Matrix Disassembly (GO:0022617)	2/21	0.024693604177550486	MMP10;MMP13	1.0	2040
+GO_Biological_Process_2023	External Encapsulating Structure Organization (GO:0045229)	3/37	0.008909366849500644	COL17A1;MMP10;MMP13	1.0	2040
+GO_Biological_Process_2023	Establishment Of Protein Localization To Organelle (GO:0072594)	1/5	0.05763459165622018	KPNA2	1.0	2040
+GO_Biological_Process_2023	Establishment Of Mitotic Spindle Localization (GO:0040001)	1/7	0.07977192758267326	NUSAP1	1.0	2040
+GO_Biological_Process_2023	Epithelium Development (GO:0060429)	1/40	0.3797208813111948	KRT15	1.0	2040
+GO_Biological_Process_2023	Epithelial Cell Differentiation (GO:0030855)	1/42	0.3944557184151595	KRT15	1.0	2040
+GO_Biological_Process_2023	Epidermis Development (GO:0008544)	2/26	0.03683606178408735	COL17A1;KRT15	1.0	2040
+GO_Biological_Process_2023	Endosome Organization (GO:0007032)	1/8	0.09065002300741483	ANXA8	1.0	2040
+GO_Biological_Process_2023	Endosomal Transport (GO:0016197)	1/15	0.16336970340698526	ANXA8	1.0	2040
+GO_Biological_Process_2023	Endomembrane System Organization (GO:0010256)	1/25	0.2575263374466385	ANXA8	1.0	2040
+GO_Biological_Process_2023	Double-Strand Break Repair (GO:0006302)	1/23	0.23955999809610273	CDCA5	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of DNA-binding Transcription Factor Activity (GO:0043433)	1/36	0.3491973132942106	TMIGD3	1.0	2040
+GO_Biological_Process_2023	Monoatomic Cation Transmembrane Transport (GO:0098655)	1/52	0.4631689520590478	KCNC2	1.0	2040
+GO_Biological_Process_2023	Mitotic Spindle Organization (GO:0007052)	1/12	0.13292477809896935	AURKB	1.0	2040
+GO_Biological_Process_2023	Mitotic Spindle Assembly (GO:0090307)	1/6	0.06876726091187783	AURKB	1.0	2040
+GO_Biological_Process_2023	Mitotic Metaphase Plate Congression (GO:0007080)	1/7	0.07977192758267326	CDCA5	1.0	2040
+GO_Biological_Process_2023	Mitotic Cytokinesis (GO:0000281)	2/10	0.005740298863677044	AURKB;NUSAP1	1.0	2040
+GO_Biological_Process_2023	Microtubule Cytoskeleton Organization Involved In Mitosis (GO:1902850)	2/9	0.004626503291913036	AURKB;NUSAP1	1.0	2040
+GO_Biological_Process_2023	Metaphase Plate Congression (GO:0051310)	1/9	0.1014029629718526	CDCA5	1.0	2040
+GO_Biological_Process_2023	mRNA Stabilization (GO:0048255)	1/14	0.1533388152106335	AXIN2	1.0	2040
+GO_Biological_Process_2023	Lysosome Localization (GO:0032418)	1/9	0.1014029629718526	BORCS7	1.0	2040
+GO_Biological_Process_2023	Lipid Biosynthetic Process (GO:0008610)	1/16	0.17328492473111767	SREBF1	1.0	2040
+GO_Biological_Process_2023	Limb Development (GO:0060173)	1/7	0.07977192758267326	DKK1	1.0	2040
+GO_Biological_Process_2023	Intracellular Protein Transport (GO:0006886)	1/31	0.3089825323894889	KPNA2	1.0	2040
+GO_Biological_Process_2023	Intermediate Filament Organization (GO:0045109)	2/19	0.02040649350176456	KRT15;KRT6B	1.0	2040
+GO_Biological_Process_2023	Inorganic Cation Transmembrane Transport (GO:0098662)	1/51	0.4566544395061403	KCNC2	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Cellular Metabolic Process (GO:0031324)	1/8	0.09065002300741483	SREBF1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Cell Population Proliferation (GO:0008285)	2/119	0.41284494875537303	AXIN2;TMIGD3	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Cell Motility (GO:2000146)	1/50	0.4500630343460511	TMIGD3	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Cell Migration (GO:0030336)	1/57	0.4946183239787023	TMIGD3	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Cell Differentiation (GO:0045596)	1/62	0.524272224044974	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Cell Cycle Process (GO:0010948)	1/7	0.07977192758267326	AURKB	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Cardiocyte Differentiation (GO:1905208)	1/5	0.05763459165622018	DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Canonical Wnt Signaling Pathway (GO:0090090)	2/29	0.04501528477732393	AXIN2;DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Blood Vessel Morphogenesis (GO:2000181)	1/25	0.2575263374466385	HOXA5	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Binding (GO:0051100)	2/16	0.014641383544998322	AURKB;DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Apoptotic Process (GO:0043066)	2/155	0.5530577436631715	DKK1;MIEN1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Angiogenesis (GO:0016525)	1/29	0.29222845713774165	HOXA5	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Wnt Signaling Pathway (GO:0030178)	2/35	0.06314023480411031	AXIN2;DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of NF-kappaB Transcription Factor Activity (GO:0032088)	1/21	0.22117093618533973	TMIGD3	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of G2/M Transition Of Mitotic Cell Cycle (GO:0010972)	1/5	0.05763459165622018	AURKB	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of DNA-templated Transcription (GO:0045892)	5/182	0.05997980213609653	AURKB;CIART;DKK1;NRIP1;RCOR2	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Protein-Containing Complex Assembly (GO:0031333)	1/13	0.14319094872627752	DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Protein Phosphorylation (GO:0001933)	1/39	0.3722232245351464	DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Protein Binding (GO:0032091)	2/15	0.01290638046170878	AURKB;DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Programmed Cell Death (GO:0043069)	2/118	0.40865570837995674	DKK1;MIEN1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Peptidyl-Serine Phosphorylation (GO:0033137)	1/5	0.05763459165622018	DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Ossification (GO:0030279)	1/10	0.11203214787276095	DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Nucleic Acid-Templated Transcription (GO:1903507)	2/86	0.269535557854461	CIART;RCOR2	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Myeloid Cell Differentiation (GO:0045638)	1/10	0.11203214787276095	HOXA5	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Multicellular Organismal Process (GO:0051241)	1/52	0.4631689520590478	DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of mRNA Catabolic Process (GO:1902373)	1/10	0.11203214787276095	AXIN2	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Lipid Metabolic Process (GO:0045833)	1/8	0.09065002300741483	SREBF1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Innate Immune Response (GO:0045824)	1/10	0.11203214787276095	AURKB	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Immune Response (GO:0050777)	1/14	0.1533388152106335	AURKB	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Endopeptidase Activity (GO:0010951)	1/28	0.28370386498738237	ANXA8	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Defense Response (GO:0031348)	1/19	0.2023494882357828	AURKB	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Cellular Process (GO:0048523)	2/145	0.5163752745414467	AXIN2;TMIGD3	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of DNA Biosynthetic Process (GO:2000573)	1/20	0.21181487275639738	AURKB	1.0	2040
+GO_Biological_Process_2023	Plasma Membrane Invagination (GO:0099024)	1/8	0.09065002300741483	AURKB	1.0	2040
+GO_Biological_Process_2023	Phosphorylation (GO:0016310)	1/65	0.5412444893430489	AURKB	1.0	2040
+GO_Biological_Process_2023	Organophosphate Biosynthetic Process (GO:0090407)	1/8	0.09065002300741483	MOCOS	1.0	2040
+GO_Biological_Process_2023	Organonitrogen Compound Biosynthetic Process (GO:1901566)	1/39	0.3722232245351464	MOCOS	1.0	2040
+GO_Biological_Process_2023	Organic Cyclic Compound Biosynthetic Process (GO:1901362)	1/7	0.07977192758267326	MOCOS	1.0	2040
+GO_Biological_Process_2023	Organelle Transport Along Microtubule (GO:0072384)	1/6	0.06876726091187783	BORCS7	1.0	2040
+GO_Biological_Process_2023	Odontogenesis (GO:0042476)	1/11	0.12253896288034259	AXIN2	1.0	2040
+GO_Biological_Process_2023	Neuron Projection Development (GO:0031175)	1/34	0.33339237528024607	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Nervous System Development (GO:0007399)	2/80	0.24301880347633262	ADGRV1;RAPGEFL1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Transmembrane Receptor Protein Serine/Threonine Kinase Signaling Pathway (GO:0090101)	1/34	0.33339237528024607	DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122)	3/138	0.22090131334241841	AURKB;DKK1;NRIP1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Striated Muscle Cell Differentiation (GO:0051154)	1/7	0.07977192758267326	DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Signal Transduction (GO:0009968)	1/77	0.6034325482188087	DKK1	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Response To External Stimulus (GO:0032102)	1/24	0.2485954123769133	AURKB	1.0	2040
+GO_Biological_Process_2023	Negative Regulation Of Response To Biotic Stimulus (GO:0002832)	1/6	0.06876726091187783	AURKB	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Cellular Process (GO:0048522)	1/153	0.8444916915834535	AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Cellular Biosynthetic Process (GO:0031328)	1/41	0.3871313841821946	SREBF1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Cell Motility (GO:2000147)	1/71	0.5734398159218772	MIEN1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Cell Migration (GO:0030335)	1/77	0.6034325482188087	MIEN1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Cell Differentiation (GO:0045597)	2/92	0.2960789519508176	AXIN2;HOXA5	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Cell Death (GO:0010942)	1/17	0.18308577631232512	AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Cell Cycle Process (GO:0090068)	3/22	0.0019940407876903776	AURKB;NCAPG;NUSAP1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Canonical Wnt Signaling Pathway (GO:0090263)	1/17	0.18308577631232512	PLEKHA4	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Bone Mineralization (GO:0030501)	1/16	0.17328492473111767	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Biomineral Tissue Development (GO:0070169)	1/16	0.17328492473111767	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Apoptotic Process (GO:0043065)	1/67	0.5522304689963156	HOXA5	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Wnt Signaling Pathway (GO:0030177)	1/19	0.2023494882357828	PLEKHA4	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of MAP Kinase Activity (GO:0043406)	1/21	0.22117093618533973	DKK1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of JUN Kinase Activity (GO:0043507)	1/8	0.09065002300741483	DKK1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of GTPase Activity (GO:0043547)	1/42	0.3944557184151595	RAPGEFL1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of DNA-templated Transcription (GO:0045893)	3/238	0.5409115620252377	HOXA5;NRIP1;SREBF1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Nuclear Division (GO:0051785)	1/6	0.06876726091187783	NUSAP1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Myeloid Cell Differentiation (GO:0045639)	1/14	0.1533388152106335	HOXA5	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Multicellular Organismal Process (GO:0051240)	1/110	0.7351224989018328	AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Mitotic Nuclear Division (GO:0045840)	1/9	0.1014029629718526	NUSAP1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Mitotic Cell Cycle Phase Transition (GO:1901992)	1/17	0.18308577631232512	CDCA5	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of miRNA Transcription (GO:1902895)	1/15	0.16336970340698526	SREBF1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of miRNA Metabolic Process (GO:2000630)	1/16	0.17328492473111767	SREBF1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Macromolecule Metabolic Process (GO:0010604)	2/86	0.269535557854461	DKK1;HOXA5	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Lipid Biosynthetic Process (GO:0046889)	1/7	0.07977192758267326	SREBF1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Kinase Activity (GO:0033674)	1/29	0.29222845713774165	AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Intracellular Signal Transduction (GO:1902533)	1/142	0.8216640828696287	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Hydrolase Activity (GO:0051345)	1/39	0.3722232245351464	RAPGEFL1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Gene Expression (GO:0010628)	2/106	0.3574407003121412	DKK1;HOXA5	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Filopodium Assembly (GO:0051491)	1/9	0.1014029629718526	MIEN1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Epithelial To Mesenchymal Transition (GO:0010718)	1/21	0.22117093618533973	AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Ubiquitin-Dependent Protein Catabolic Process (GO:2000060)	1/17	0.18308577631232512	AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Transferase Activity (GO:0051347)	1/41	0.3871313841821946	AURKB	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944)	3/186	0.3773833550357826	HOXA5;NRIP1;SREBF1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Telomere Maintenance Via Telomere Lengthening (GO:1904358)	1/8	0.09065002300741483	AURKB	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Telomere Maintenance Via Telomerase (GO:0032212)	1/8	0.09065002300741483	AURKB	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Telomere Maintenance (GO:0032206)	1/5	0.05763459165622018	AURKB	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Telomerase Activity (GO:0051973)	1/12	0.13292477809896935	AURKB	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Protein Phosphorylation (GO:0001934)	2/90	0.28723631137211814	AURKB;AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Protein Modification Process (GO:0031401)	2/53	0.12836735198177354	AURKB;AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Protein Kinase Activity (GO:0045860)	2/31	0.050807602308298054	AXIN2;DKK1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Proteasomal Ubiquitin-Dependent Protein Catabolic Process (GO:0032436)	1/18	0.19277354114451875	AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Proteasomal Protein Catabolic Process (GO:1901800)	1/17	0.18308577631232512	AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Programmed Cell Death (GO:0043068)	1/60	0.5126196082827327	HOXA5	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Plasma Membrane Bounded Cell Projection Assembly (GO:0120034)	1/18	0.19277354114451875	MIEN1	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Phosphorylation (GO:0042327)	2/67	0.1863699985420862	AURKB;AXIN2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Ossification (GO:0045778)	1/18	0.19277354114451875	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Protein Phosphorylation (GO:0006468)	1/88	0.6531791222725513	AURKB	1.0	2040
+GO_Biological_Process_2023	Protein Modification Process (GO:0036211)	1/103	0.7113416867480298	AURKB	1.0	2040
+GO_Biological_Process_2023	Protein Localization To Nucleus (GO:0034504)	1/13	0.14319094872627752	KPNA2	1.0	2040
+GO_Biological_Process_2023	Protein Localization (GO:0008104)	1/44	0.408849768032426	AXIN2	1.0	2040
+GO_Biological_Process_2023	Protein Import Into Nucleus (GO:0006606)	1/6	0.06876726091187783	KPNA2	1.0	2040
+GO_Biological_Process_2023	Protein Homooligomerization (GO:0051260)	1/27	0.27507940778091755	KCNC2	1.0	2040
+GO_Biological_Process_2023	Protein Complex Oligomerization (GO:0051259)	1/15	0.16336970340698526	KCNC2	1.0	2040
+GO_Biological_Process_2023	Protein Autophosphorylation (GO:0046777)	1/35	0.34134096764719135	AURKB	1.0	2040
+GO_Biological_Process_2023	Proteasome-Mediated Ubiquitin-Dependent Protein Catabolic Process (GO:0043161)	1/37	0.3569624533806712	AXIN2	1.0	2040
+GO_Biological_Process_2023	Proteasomal Protein Catabolic Process (GO:0010498)	1/29	0.29222845713774165	AXIN2	1.0	2040
+GO_Biological_Process_2023	Potassium Ion Transport (GO:0006813)	1/18	0.19277354114451875	KCNC2	1.0	2040
+GO_Biological_Process_2023	Potassium Ion Transmembrane Transport (GO:0071805)	1/20	0.21181487275639738	KCNC2	1.0	2040
+GO_Biological_Process_2023	Post-Translational Protein Modification (GO:0043687)	1/7	0.07977192758267326	AURKB	1.0	2040
+GO_Biological_Process_2023	Post-Transcriptional Regulation Of Gene Expression (GO:0010608)	1/7	0.07977192758267326	ELP2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Viral Process (GO:0048524)	1/6	0.06876726091187783	KPNA2	1.0	2040
+GO_Biological_Process_2023	Positive Regulation Of Viral Life Cycle (GO:1903902)	1/6	0.06876726091187783	KPNA2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cell Cycle (GO:0051726)	1/73	0.5836746748211518	PCLAF	1.0	2040
+GO_Biological_Process_2023	Regulation Of Canonical Wnt Signaling Pathway (GO:0060828)	3/44	0.01435173196805419	AXIN2;DKK1;PLEKHA4	1.0	2040
+GO_Biological_Process_2023	Regulation Of Bone Mineralization (GO:0030500)	1/21	0.22117093618533973	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Blood Circulation (GO:1903522)	1/9	0.1014029629718526	TMIGD3	1.0	2040
+GO_Biological_Process_2023	Regulation Of Autophagy (GO:0010506)	1/42	0.3944557184151595	SREBF1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Apoptotic Process (GO:0042981)	3/201	0.4263111358129763	DKK1;HOXA5;MIEN1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Angiogenesis (GO:0045765)	1/64	0.5356535954384679	HOXA5	1.0	2040
+GO_Biological_Process_2023	Regulation Of Amide Metabolic Process (GO:0034248)	1/6	0.06876726091187783	ELP2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Wnt Signaling Pathway (GO:0030111)	1/23	0.23955999809610273	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of JUN Kinase Activity (GO:0043506)	1/11	0.12253896288034259	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of GTPase Activity (GO:0043087)	1/50	0.4500630343460511	RAPGEFL1	1.0	2040
+GO_Biological_Process_2023	Regulation Of DNA-templated Transcription (GO:0006355)	5/301	0.27881912603929954	CIART;ELP2;HOXA5;RCOR2;SREBF1	1.0	2040
+GO_Biological_Process_2023	Regulation Of DNA Repair (GO:0006282)	1/15	0.16336970340698526	AXIN2	1.0	2040
+GO_Biological_Process_2023	Regulation Of DNA Recombination (GO:0000018)	1/6	0.06876726091187783	KPNA2	1.0	2040
+GO_Biological_Process_2023	Regulation Of DNA Metabolic Process (GO:0051052)	1/14	0.1533388152106335	KPNA2	1.0	2040
+GO_Biological_Process_2023	Proteolysis (GO:0006508)	1/76	0.5985803670958244	ADGRV1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Innate Immune Response (GO:0045088)	1/16	0.17328492473111767	AURKB	1.0	2040
+GO_Biological_Process_2023	Regulation Of Heart Contraction (GO:0008016)	1/11	0.12253896288034259	TMIGD3	1.0	2040
+GO_Biological_Process_2023	Regulation Of Gene Expression (GO:0010468)	2/212	0.7253012625185312	DKK1;HOXA5	1.0	2040
+GO_Biological_Process_2023	Regulation Of Filopodium Assembly (GO:0051489)	1/11	0.12253896288034259	MIEN1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Extracellular Matrix Organization (GO:1903053)	1/12	0.13292477809896935	AXIN2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Erythrocyte Differentiation (GO:0045646)	1/16	0.17328492473111767	HOXA5	1.0	2040
+GO_Biological_Process_2023	Regulation Of Epithelial To Mesenchymal Transition (GO:0010717)	1/32	0.3172142279147912	AXIN2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cytokinesis (GO:0032465)	1/8	0.09065002300741483	AURKB	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cellular Component Organization (GO:0051128)	1/33	0.3253504834919738	AXIN2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cellular Biosynthetic Process (GO:0031326)	1/17	0.18308577631232512	ELP2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cell Population Proliferation (GO:0042127)	2/212	0.7253012625185312	AXIN2;TMIGD3	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cell Migration (GO:0030334)	2/130	0.4579811557952238	MIEN1;TMIGD3	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cell Fate Specification (GO:0042659)	1/5	0.05763459165622018	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cell Division (GO:0051302)	1/11	0.12253896288034259	AURKB	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cell Death (GO:0010941)	1/16	0.17328492473111767	AXIN2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Cell Cycle Process (GO:0010564)	1/20	0.21181487275639738	AURKB	1.0	2040
+GO_Biological_Process_2023	Regulation Of Protein Metabolic Process (GO:0051246)	1/20	0.21181487275639738	ELP2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Protein Kinase Activity (GO:0045859)	1/28	0.28370386498738237	AXIN2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Protein Binding (GO:0043393)	2/22	0.0269635605165365	AURKB;DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Proteasomal Ubiquitin-Dependent Protein Catabolic Process (GO:0032434)	1/18	0.19277354114451875	AXIN2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Peptidyl-Serine Phosphorylation (GO:0033135)	1/20	0.21181487275639738	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Pathway-Restricted SMAD Protein Phosphorylation (GO:0060393)	1/14	0.1533388152106335	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Ossification (GO:0030278)	1/13	0.14319094872627752	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Neuron Differentiation (GO:0045664)	1/22	0.23041890645528285	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Neuron Death (GO:1901214)	1/20	0.21181487275639738	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Neuron Apoptotic Process (GO:0043523)	1/39	0.3722232245351464	DKK1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Myeloid Cell Differentiation (GO:0045637)	1/8	0.09065002300741483	HOXA5	1.0	2040
+GO_Biological_Process_2023	Regulation Of Mitotic Nuclear Division (GO:0007088)	1/13	0.14319094872627752	NUSAP1	1.0	2040
+GO_Biological_Process_2023	Regulation Of miRNA Transcription (GO:1902893)	1/20	0.21181487275639738	SREBF1	1.0	2040
+GO_Biological_Process_2023	Regulation Of Macromolecule Biosynthetic Process (GO:0010556)	1/10	0.11203214787276095	ELP2	1.0	2040
+GO_Biological_Process_2023	Regulation Of mRNA Stability (GO:0043488)	1/17	0.18308577631232512	AXIN2	1.0	2040
+GO_Biological_Process_2023	Regulation Of Intracellular Signal Transduction (GO:1902531)	1/56	0.48847537982207034	AURKB	1.0	2040
+Reactome_2022	DNA Double Strand Break Response R-HSA-5693606	1/10	0.11203214787276095	KPNA2	1.0	913
+Reactome_2022	DNA Damage Bypass R-HSA-73893	1/7	0.07977192758267326	PCLAF	1.0	913
+Reactome_2022	DAG And IP3 Signaling R-HSA-1489509	1/11	0.12253896288034259	KPNA2	1.0	913
+Reactome_2022	Cytokine Signaling In Immune System R-HSA-1280215	1/187	0.898495456653188	KPNA2	1.0	913
+Reactome_2022	Collagen Formation R-HSA-1474290	2/42	0.08683368063064136	COL17A1;MMP13	1.0	913
+Reactome_2022	Collagen Chain Trimerization R-HSA-8948216	1/22	0.23041890645528285	COL17A1	1.0	913
+Reactome_2022	Collagen Biosynthesis And Modifying Enzymes R-HSA-1650814	1/29	0.29222845713774165	COL17A1	1.0	913
+Reactome_2022	Circadian Clock R-HSA-400253	2/15	0.01290638046170878	NRIP1;SREBF1	1.0	913
+Reactome_2022	Chromatin Modifying Enzymes R-HSA-3247509	1/34	0.33339237528024607	ELP2	1.0	913
+Reactome_2022	Cholesterol Biosynthesis R-HSA-191273	1/8	0.09065002300741483	SREBF1	1.0	913
+Reactome_2022	Cellular Responses To Stress R-HSA-2262752	1/172	0.8774015867793432	NRIP1	1.0	913
+Reactome_2022	Cellular Responses To Stimuli R-HSA-8953897	1/179	0.8877282362857395	NRIP1	1.0	913
+Reactome_2022	Cell-cell Junction Organization R-HSA-421270	1/15	0.16336970340698526	CLDN11	1.0	913
+Reactome_2022	Cell-Cell Communication R-HSA-1500931	2/29	0.04501528477732393	CLDN11;COL17A1	1.0	913
+Reactome_2022	Cell Junction Organization R-HSA-446728	2/26	0.03683606178408735	CLDN11;COL17A1	1.0	913
+GO_Biological_Process_2023	Supramolecular Fiber Organization (GO:0097435)	2/89	0.28281218954687876	KRT15;KRT6B	1.0	2040
+GO_Biological_Process_2023	Synapse Organization (GO:0050808)	1/36	0.3491973132942106	DKK1	1.0	2040
+GO_Biological_Process_2023	Synapse Pruning (GO:0098883)	1/7	0.07977192758267326	DKK1	1.0	2040
+GO_Biological_Process_2023	Tight Junction Assembly (GO:0120192)	1/9	0.1014029629718526	CLDN11	1.0	2040
+GO_Biological_Process_2023	Transcription By RNA Polymerase II (GO:0006366)	1/28	0.28370386498738237	ELP2	1.0	2040
+GO_Biological_Process_2023	Transport Along Microtubule (GO:0010970)	1/5	0.05763459165622018	BORCS7	1.0	2040
+GO_Biological_Process_2023	Ubiquitin-Dependent Protein Catabolic Process (GO:0006511)	1/46	0.4229106978964907	AXIN2	1.0	2040
+GO_Biological_Process_2023	Vesicle Organization (GO:0016050)	1/19	0.2023494882357828	ANXA8	1.0	2040
+GO_Biological_Process_2023	Vesicle-Mediated Transport (GO:0016192)	1/65	0.5412444893430489	ANXA8	1.0	2040
+GO_Biological_Process_2023	Visual Perception (GO:0007601)	1/16	0.17328492473111767	ADGRV1	1.0	2040
+Reactome_2022	APC/C-mediated Degradation Of Cell Cycle Proteins R-HSA-174143	1/24	0.2485954123769133	AURKB	1.0	913

@@ -1,0 +1,10 @@
+unique_genes_any_seed	208
+genes_in_1_of_5	110
+genes_in_2_of_5	45
+genes_in_3_of_5	24
+genes_in_4_of_5	17
+genes_in_5_of_5	12
+stable_panel_size	53
+stable_in_PAM50	16
+always_selected	CALML3;CEP55;COL17A1;ESR1;FGFR4;KRT14;KRT17;KRT5;KRT6B;RAPGEFL1;SLC39A6;TYMSOS
+stable_PAM50_overlap	CENPF;CEP55;EGFR;ERBB2;ESR1;EXO1;FGFR4;FOXC1;KRT14;KRT17;KRT5;MELK;PHGDH;SLC39A6;TYMS;UBE2T

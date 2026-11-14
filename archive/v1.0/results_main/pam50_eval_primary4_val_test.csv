@@ -1,0 +1,2 @@
+model,val_bacc,val_macro_f1,val_macro_roc_auc_ovr,val_macro_pr_auc,test_bacc,test_macro_f1,test_macro_roc_auc_ovr,test_macro_pr_auc,pam50_genes_used,class_order
+PAM50_centroid(genefu_export)_4class_alias_fixed,0.7692651172184622,0.699513667160726,0.9522095551280432,0.8793942622144248,0.7871152224330593,0.7277219430485762,0.9634365323516008,0.8937450127312236,50,"Basal,Her2,LumA,LumB"

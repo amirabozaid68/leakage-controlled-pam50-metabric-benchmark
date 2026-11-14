@@ -1,0 +1,41 @@
+{
+  "DATA_DIR": "/content/drive/MyDrive/EXPORT_FOR_COLAB",
+  "X_FP": "/content/drive/MyDrive/EXPORT_FOR_COLAB/X_samples_x_genes.tsv.gz",
+  "Y_FP": "/content/drive/MyDrive/EXPORT_FOR_COLAB/y_labels.tsv",
+  "OUT": "/content/drive/MyDrive/EXPORT_FOR_COLAB/ML_RESULTS_v1.1",
+  "SEEDS": [
+    123,
+    124,
+    125,
+    126,
+    127
+  ],
+  "CLASS_ORDER": [
+    "Basal",
+    "Her2",
+    "LumA",
+    "LumB"
+  ],
+  "V": 3000,
+  "C_SEL": 0.6,
+  "PANEL_SIZES": [
+    20,
+    40,
+    50,
+    80,
+    120
+  ],
+  "PRIMARY_K": 80,
+  "C_GRID": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "STABLE_MIN": 3,
+  "N_BOOT": 2000,
+  "RUN_GENEFU": true,
+  "RUN_ENRICHR": true
+}

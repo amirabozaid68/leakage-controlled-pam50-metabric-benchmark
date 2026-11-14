@@ -1,0 +1,10 @@
+arm	LumA_to_LumB	LumB_to_LumA	LumB_to_Her2	LumA_to_Basal	n_LumA	n_LumB
+pam50_centroid_v1	11	43	77	58	525	360
+pam50_genefu	123	0	5	0	525	360
+lr_pam50genes	40	20	22	3	525	360
+lr_full3000	46	25	16	1	525	360
+compact_TOP20	54	32	26	6	525	360
+compact_TOP40	42	23	24	4	525	360
+compact_TOP50	48	24	25	3	525	360
+compact_TOP80	49	22	25	3	525	360
+compact_TOP120	48	25	25	2	525	360

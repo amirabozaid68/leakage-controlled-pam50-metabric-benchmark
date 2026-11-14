@@ -1,0 +1,6 @@
+seed	C_lr_pam50genes	C_lr_full3000	n_nonzero_selector_genes	C_compact_TOP20	C_compact_TOP40	C_compact_TOP50	C_compact_TOP80	C_compact_TOP120
+123	0.03	0.01	1239	0.03	0.03	0.03	0.01	0.03
+124	0.1	0.01	1136	0.01	0.01	0.03	0.01	0.01
+125	0.03	0.1	1118	0.01	0.01	0.01	0.01	0.01
+126	0.03	0.01	1161	0.01	0.3	0.01	0.01	0.3
+127	0.03	1.0	1132	0.01	0.1	0.3	0.01	0.1
