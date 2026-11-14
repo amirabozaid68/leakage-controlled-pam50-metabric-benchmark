@@ -1,6 +1,0 @@
-data_processed/X_samples_x_genes.tsv.gz
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
-.Rhistory
-.Rproj.user/
