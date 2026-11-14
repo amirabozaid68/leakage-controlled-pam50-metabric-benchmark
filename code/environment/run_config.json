@@ -1,0 +1,51 @@
+{
+  "DATA_DIR": "/content/drive/MyDrive/EXPORT_FOR_COLAB",
+  "SCANB_DIR": "/content/drive/MyDrive/EXPORT_FOR_COLAB/GSE96058",
+  "OUT": "/content/drive/MyDrive/EXPORT_FOR_COLAB/ML_RESULTS_v1.2",
+  "SEEDS": [
+    123,
+    124,
+    125,
+    126,
+    127
+  ],
+  "CLASS_ORDER": [
+    "Basal",
+    "Her2",
+    "LumA",
+    "LumB"
+  ],
+  "V": 3000,
+  "C_SEL": 0.6,
+  "PANEL_SIZES": [
+    20,
+    40,
+    50,
+    80,
+    120
+  ],
+  "PRIMARY_K": 80,
+  "C_GRID": [
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "STABLE_MIN": 3,
+  "N_BOOT": 2000,
+  "ALIAS": {
+    "CDCA1": "NUF2",
+    "KNTC2": "NDC80",
+    "ORC6L": "ORC6"
+  },
+  "COHORTS": [
+    "METABRIC",
+    "SCANB"
+  ]
+}
