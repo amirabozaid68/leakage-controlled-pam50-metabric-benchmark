@@ -1,6 +1,28 @@
 # Changelog
 
-## v1.2 (November 2026): current analysis
+## v1.3.1 (November 2026): post hoc analyses after pre-submission review
+
+These analyses were added after the pre-specified v1.3 results were known. They are labelled post hoc in the manuscript.
+
+- **Patient-level bootstrap.** `pooled_bootstrap_within.tsv` pools the five test sets and resamples patients, so overlapping test sets no longer count a patient twice. TOP80 is the primary comparison. Secondary comparisons are Holm-adjusted.
+- **Sources of instability.** `H2_instability_sources.tsv` splits Luminal A/B instability into implementation (published label against genefu), model (published label against within-cohort model) and transfer (within-cohort against other-cohort model).
+- **Clinical adjustment.** `H2_cox_ladder.tsv` fits Cox models M1 to M4. M4 adds grade, size, HER2, PR, menopausal state and chemotherapy, endocrine and radiotherapy, stratified by METABRIC sub-cohort. It uses the cBioPortal files `data_clinical_patient.txt` and `data_clinical_sample.txt`. Proportional hazards are tested for every model.
+- **Supplement.** `make_additional_file.py` now builds Tables S4 and S5 from these files.
+
+## v1.3 (November 2026): pre-specified luminal-boundary analyses
+
+- **Analysis plan committed first.** `ANALYSIS_PLAN_v1.3.md` fixed the hypotheses, definitions and success criteria before the analysis was run.
+- **New notebook.** `PAM50_benchmark_v1.3.ipynb` adds METABRIC and SCAN-B survival and clinical data, and tests:
+  - **H1** subtype-balanced centring for cross-cohort transfer;
+  - **H2** boundary-unstable luminal tumours and survival;
+  - **H3** a continuous luminal score.
+- **Verdicts.**
+  - H1 not supported in either direction. Balanced centring removed the directional bias but did not improve macro-F1.
+  - H2 supported in METABRIC, not in SCAN-B.
+  - H3 primary test not supported in either cohort.
+- **Figures and supplement.** Figures 6 and 7 are new. `make_additional_file.py` builds the supplementary tables from the v1.3 results.
+
+## v1.2 (November 2026): two-cohort benchmark
 
 - **SCAN-B added.** GSE96058 (3,052 four-class tumours, RNA-seq) is downloaded by the notebook. The full benchmark is repeated inside SCAN-B, and every model is tested across cohorts in both directions.
 - **Shared gene space.** Both cohorts are restricted to genes measured in both, so METABRIC numbers differ slightly from v1.1.

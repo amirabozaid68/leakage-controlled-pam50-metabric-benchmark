@@ -1,19 +1,21 @@
-# Leakage-controlled PAM50 benchmark: METABRIC and SCAN-B (release v1.2)
+# Leakage-controlled PAM50 benchmark: METABRIC and SCAN-B (release v1.3)
 
-Code and results for the manuscript *Data-driven gene panels do not outperform the PAM50 genes for breast cancer intrinsic subtyping: a leakage-controlled benchmark across microarray and RNA-seq cohorts* (Abozaid A, Assal MF, Kojima Y, Osman A, Zaky AB).
+Code and results for the manuscript *Gene panels do not improve on PAM50, and the Luminal A/Luminal B boundary is not reproducible across cohorts: a leakage-controlled benchmark in METABRIC and SCAN-B* (Abozaid A, Assal MF, Kojima Y, Osman A, Zaky AB).
 
-Release v1.2 replaces the main analysis of v1.0. See `CHANGELOG.md` for what changed and why. The earlier releases are kept unchanged in `archive/`.
+Release v1.3 adds the pre-specified luminal-boundary analyses (H1 to H3) to the v1.2 benchmark. The plan for those analyses, `ANALYSIS_PLAN_v1.3.md`, was committed to this repository before they were run. See `CHANGELOG.md` for what changed in each release. The earlier analyses are kept unchanged in `archive/`.
 
 ## What the analysis does
 
 Four-class intrinsic subtype classification (Basal-like, HER2-enriched, Luminal A, Luminal B) in two cohorts:
 
-| Cohort | Platform | Four-class tumours | Source |
-|---|---|---|---|
-| METABRIC | Illumina HT-12 microarray | 1,608 | cBioPortal |
-| SCAN-B | RNA-seq | 3,052 | GEO GSE96058 (downloaded by the notebook) |
+| Cohort | Platform | Four-class tumours | Survival | Source |
+|---|---|---|---|---|
+| METABRIC | Illumina HT-12 microarray | 1,608 | overall and disease-specific | cBioPortal |
+| SCAN-B | RNA-seq | 3,052 | overall | GEO GSE96058 (downloaded by the notebook) |
 
-Both cohorts are restricted to genes measured in both. Approaches compared on identical splits:
+Both cohorts are restricted to the 18,515 genes measured in both.
+
+**Benchmark (v1.2).** These approaches are compared on identical splits:
 
 1. genefu PAM50 (`intrinsic.cluster.predict`, `pam50.robust`), run on each test set alone
 2. logistic regression on the 50 PAM50 genes
@@ -21,52 +23,55 @@ Both cohorts are restricted to genes measured in both. Approaches compared on id
 4. L1-selected compact panels of 20, 40, 50, 80 (primary) and 120 genes, followed by logistic regression
 5. the v1.0 centroid re-implementation, kept as a historical reference
 
-Within each cohort: five stratified 70/15/15 splits (seeds 123 to 127), all preprocessing fitted on training data only, C tuned on validation macro-F1, one test pass after refitting on training plus validation. Across cohorts: every model refitted in one cohort predicts every four-class tumour of the other, in both directions, with genefu on the whole target cohort as reference.
+Within each cohort there are five stratified 70/15/15 splits (seeds 123 to 127), with all preprocessing fitted on training data only. Across cohorts, every model refitted in one cohort predicts every four-class tumour of the other, in both directions.
+
+**Pre-specified luminal analyses (v1.3):**
+
+- **H1.** Does subtype-balanced centring repair the cross-cohort Luminal A/Luminal B shift?
+- **H2.** Do boundary-unstable luminal tumours (conflicting calls from the published label, genefu, a within-cohort model and an other-cohort model) have intermediate survival?
+- **H3.** Does a continuous Luminal B probability add prognostic information beyond the binary label?
+
+`results_v1.3/PRESPECIFIED_VERDICTS.tsv` lists the pass or fail outcome of each test.
 
 ## How to reproduce
 
 1. Run `code/R/Transition_to_python_BeatPAM50.Rmd` in RStudio (Knit) on the cBioPortal METABRIC download. It writes `EXPORT_FOR_COLAB/` with `X_samples_x_genes.tsv.gz`, `y_labels.tsv` and `meta.tsv`. The expression matrix is not in this release because of its size.
-2. Put `EXPORT_FOR_COLAB/` in Google Drive (`MyDrive/EXPORT_FOR_COLAB`).
-3. Open `code/python/PAM50_benchmark_v1.2.ipynb` in Google Colab and choose Runtime > Run all. The notebook installs R and genefu, downloads GSE96058 into Drive, and writes `ML_RESULTS_v1.2/`. Heavy steps are checkpointed, so Run all can be repeated after a disconnect.
-4. Run `code/python/make_figures_v1.2.py ML_RESULTS_v1.2 figures_v1.2` to draw the figures.
+2. Put `EXPORT_FOR_COLAB/` in Google Drive (`MyDrive/EXPORT_FOR_COLAB`), together with the cBioPortal file `data_clinical_patient.txt`.
+3. In Google Colab, run `code/python/PAM50_benchmark_v1.2.ipynb` (Runtime > Run all). It installs R and genefu, downloads GSE96058 and writes `ML_RESULTS_v1.2/`.
+4. Then run `code/python/PAM50_benchmark_v1.3.ipynb`, which writes `ML_RESULTS_v1.3/`. Both notebooks checkpoint heavy steps.
+5. Draw the figures: `python code/python/make_figures.py ML_RESULTS_v1.2 figures ML_RESULTS_v1.3`
+6. Run the post hoc analyses (v1.3.1): `python code/python/posthoc_v131.py ML_RESULTS_v1.2 ML_RESULTS_v1.3 <folder with the cBioPortal files data_clinical_patient.txt and data_clinical_sample.txt> results_v1.3/posthoc`
+7. Build Additional file 1: `python code/python/make_additional_file.py ML_RESULTS_v1.3 figures results_v1.3/posthoc`
 
 ## Folder contents
 
 | Folder | Contents |
 |---|---|
-| `code/python/` | v1.2 Colab notebook and figure script |
-| `code/R/` | METABRIC cohort reconstruction and export (unchanged from v1.0) |
+| `code/python/` | v1.2 and v1.3 Colab notebooks, post hoc script, figure script, Additional file script |
+| `code/R/` | METABRIC cohort reconstruction and export |
 | `code/environment/` | run configuration, Python package versions, R session information |
 | `data_processed/` | METABRIC labels, metadata and cohort flow table |
-| `results_v1.2/` | all v1.2 outputs (see below) |
-| `figures_v1.2/` | manuscript figures, PDF and 600-dpi PNG |
+| `results_v1.2/` | benchmark outputs |
+| `results_v1.3/` | H1 to H3 outputs, tumour-level scores and the pre-specified verdicts |
+| `results_v1.3/posthoc/` | post hoc analyses added in v1.3.1 (not pre-specified) |
+| `figures_v1.3/` | all manuscript and supplementary figures, PDF and 600-dpi PNG |
+| `figures_v1.2/` | figures as released in v1.2 |
 | `archive/v1.0/`, `archive/v1.1/` | earlier analyses, unchanged |
-
-Key files in `results_v1.2/`:
-
-| File | Used for |
-|---|---|
-| `summary_mean_sd.tsv` | Tables 2 and 3 (mean and SD by approach, cohort and scope) |
-| `per_seed/per_seed_metrics_all.tsv` | per-split metrics, Figures 2 and 3 |
-| `per_seed/predictions_all.tsv.gz` | per-tumour predictions and probabilities for every approach |
-| `per_seed/tuned_hyperparameters.tsv` | chosen C per approach and split |
-| `paired_tests.tsv` | paired bootstrap intervals and exact McNemar tests |
-| `luminal_confusions.tsv` | Luminal A/Luminal B reassignment counts, Figure 4 |
-| `genefu/` | genefu calls, scripts and agreement with published labels, Supplementary Figure S3 |
-| `stability/` | panel genes per split, inclusion frequencies, stable panels, Figure 5 |
-| `biology/` | stable-panel coefficients, enrichment results and the gene-set libraries used |
-| `splits_by_sample_id.tsv` | every train/validation/test assignment by sample ID |
 
 ## Figure mapping
 
-| Manuscript | File |
-|---|---|
-| Figure 1 | `figures_v1.2/Fig1_study_design.pdf` |
-| Figure 2 | `figures_v1.2/Fig2_within_cohort_macroF1.pdf` |
-| Figure 3 | `figures_v1.2/Fig3_cross_cohort_transfer.pdf` |
-| Figure 4 | `figures_v1.2/Fig4_luminal_boundary.pdf` |
-| Figure 5 | `figures_v1.2/Fig5_panel_stability_and_size.pdf` |
-| Supplementary Figures S1 to S3 | `figures_v1.2/FigS1_*`, `FigS2_*`, `FigS3_*` |
+| Manuscript | File in `figures_v1.3/` | Source results |
+|---|---|---|
+| Figure 1 | `Fig1_study_design.pdf` | design schematic |
+| Figure 2 | `Fig2_within_cohort_macroF1.pdf` | `results_v1.2/per_seed/` |
+| Figure 3 | `Fig3_cross_cohort_transfer.pdf` | `results_v1.2/per_seed/` |
+| Figure 4 | `Fig4_luminal_boundary.pdf` | `results_v1.2/per_seed/predictions_all.tsv.gz` |
+| Figure 5 | `Fig5_panel_stability_and_size.pdf` | `results_v1.2/stability/` |
+| Figure 6 | `Fig6_centring_and_luminal_shift.pdf` | `results_v1.3/H1/` |
+| Figure 7 | `Fig7_boundary_unstable_luminal.pdf` | `results_v1.3/H2/` |
+| Additional file 1, Figures S1 to S3 | `FigS1_*`, `FigS2_*`, `FigS3_*` | `results_v1.2/` |
+| Additional file 1, Tables S1 to S3 | built by `make_additional_file.py` | `results_v1.3/H1/`, `H2/`, `H3/` |
+| Additional file 1, Tables S4 and S5 | built by `make_additional_file.py` | `results_v1.3/posthoc/` |
 
 ## Licence and contact
 
